@@ -1,0 +1,48 @@
+{
+  "timestamp": 1793056762.5142953,
+  "total_time_seconds": 1.81,
+  "lsh_speedup": {
+    "scaling_results": [
+      {
+        "num_docs": 50,
+        "pairwise_ms": 6.88,
+        "lsh_ms": 87.57,
+        "speedup": 0.1,
+        "lsh_duplicates_found": 43
+      },
+      {
+        "num_docs": 100,
+        "pairwise_ms": 20.65,
+        "lsh_ms": 162.44,
+        "speedup": 0.1,
+        "lsh_duplicates_found": 93
+      },
+      {
+        "num_docs": 200,
+        "pairwise_ms": 76.74,
+        "lsh_ms": 320.82,
+        "speedup": 0.2,
+        "lsh_duplicates_found": 191
+      },
+      {
+        "num_docs": 400,
+        "pairwise_ms": 325.42,
+        "lsh_ms": 650.2,
+        "speedup": 0.5,
+        "lsh_duplicates_found": 390
+      }
+    ]
+  },
+  "jaccard_fidelity": {
+    "mean_absolute_error": 0.0267,
+    "max_absolute_error": 0.1031,
+    "passed": true
+  },
+  "evol_complexity_shift": {
+    "depth_0_avg_complexity": 0.2317,
+    "depth_1_avg_complexity": 0.5239,
+    "depth_2_avg_complexity": 0.5476,
+    "depth_3_avg_complexity": 0.6591,
+    "total_complexity_gain_pct": 184.5
+  }
+}
