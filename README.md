@@ -1,8 +1,9 @@
 # Synthetic Data Engine
 
-[![Tests](https://img.shields.io/badge/tests-40%2F40%20passed-brightgreen.svg)](#)
-[![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-purple.svg)](#)
+[![CI](https://github.com/SKB-18/synthetic-data-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/SKB-18/synthetic-data-engine/actions)
+[![Tests: 40 Passed](https://img.shields.io/badge/tests-40%2F40%20passed-brightgreen.svg)](#)
+[![Python: 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](#)
 
 An industrial-grade engine for generating, curating, deduplicating, and synthesizing alignment datasets for Large Language Models. Implements **Evol-Instruct** mutation trees, multi-dimensional **Quality & Shannon Entropy Scoring**, sub-quadratic **MinHash LSH** fuzzy near-duplicate purging, and automated **DPO preference pair synthesis**.
 
