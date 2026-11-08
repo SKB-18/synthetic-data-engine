@@ -1,35 +1,35 @@
 {
-  "timestamp": 1793056762.5142953,
-  "total_time_seconds": 1.81,
+  "timestamp": 1794113620.5494952,
+  "total_time_seconds": 51.53,
   "lsh_speedup": {
     "scaling_results": [
       {
         "num_docs": 50,
-        "pairwise_ms": 6.88,
-        "lsh_ms": 87.57,
+        "pairwise_ms": 81.22,
+        "lsh_ms": 1372.88,
         "speedup": 0.1,
-        "lsh_duplicates_found": 43
+        "lsh_duplicates_found": 42
       },
       {
         "num_docs": 100,
-        "pairwise_ms": 20.65,
-        "lsh_ms": 162.44,
+        "pairwise_ms": 450.29,
+        "lsh_ms": 4820.6,
         "speedup": 0.1,
-        "lsh_duplicates_found": 93
+        "lsh_duplicates_found": 92
       },
       {
         "num_docs": 200,
-        "pairwise_ms": 76.74,
-        "lsh_ms": 320.82,
-        "speedup": 0.2,
-        "lsh_duplicates_found": 191
+        "pairwise_ms": 1536.45,
+        "lsh_ms": 5522.07,
+        "speedup": 0.3,
+        "lsh_duplicates_found": 190
       },
       {
         "num_docs": 400,
-        "pairwise_ms": 325.42,
-        "lsh_ms": 650.2,
+        "pairwise_ms": 10595.42,
+        "lsh_ms": 22439.29,
         "speedup": 0.5,
-        "lsh_duplicates_found": 390
+        "lsh_duplicates_found": 392
       }
     ]
   },
